@@ -31,7 +31,7 @@ public class CryptoCodec implements CompressionCodec, Configurable {
 		    LogFactory.getLog(CryptoCodec.class);
 	
 	public static final String CRYPTO_DEFAULT_EXT = ".crypto";
-	public static final String CRYPTO_SECRET_KEY = "cypto.secret.key";
+	public static final String CRYPTO_SECRET_KEY = "crypto.secret.key";
 	private Configuration config;
 	@Override
 	public Compressor createCompressor() {
